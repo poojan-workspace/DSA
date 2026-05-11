@@ -8,7 +8,7 @@ Numbers:
 
 * is multiply
 / is divide
-// is divide without decimals
+// is divide without decimals: no round up just ignore the decimals
 % is remainder
 ** is exponential
     
