@@ -2,8 +2,6 @@
 
 Objects and mutability:
 
-Objects have identity, type and value.
-
 Mutable and Immutable means that it is changable and it is not changable resp.
 **We can know if an object is mutuable or not based on the identity of the object and never based on the value of the object.**
 
@@ -17,6 +15,8 @@ print(f"Second amount: {sugar_amount}")
 
 print(f"ID of 2: {id(2)}")
 print(f"ID of 12: {id(12)}")
+print(f"ID of 12.99999: {id(12.99999)}")
+print(f"ID of 12.99998: {id(12.99998)}")
 
 
 '''2 and 12 here are immutable because the ID or 2 and 12 numbers within the computer never changes.'''
@@ -35,3 +35,6 @@ spices_mix.add('Cardamom')
 
 print(f"Spices mix: {spices_mix}")
 print(f"Spices mix id: {id(spices_mix)}")
+
+'''So here spices_mix is mutable object as the id of it stays the same even after changing the values in it.
+So we can change the SET contents and the ID of the SET will never change.'''
