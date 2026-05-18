@@ -18,13 +18,14 @@ update_order()
 
 '''
 "Global" variable access in python.
+Use it very caustiously
 '''
 
 chai_type = "Plain"
 
 def update_order():
     def kitchen():
-        global chai_type
+        global chai_type # We can access the "global" variable as well just how we can access the "nonlocal" one and update it
         chai_type = "Best"
     kitchen()
 

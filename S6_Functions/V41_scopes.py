@@ -19,7 +19,7 @@ chai_order()
 
 # 2. Enclosing from outer function if nested
 def chai_counter():
-    chai_order = "Lemon"
+    chai_order = "Lemon" # Enclosing
 
     def print_order(): # It can access the varibales only inside its own function and Global variables, and not its parent function.
         chai_order = "Mint"

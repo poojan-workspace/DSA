@@ -8,7 +8,7 @@ print(f"{my_bill}")
 print(f"My total bill is: ",calculate_bill(2, 40))
 
 
-# Example 2:
+# Example 2: Traceablility
 
 def add_vat(price, vat_rate):
     return price * (100 + vat_rate)/100

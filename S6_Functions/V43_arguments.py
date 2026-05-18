@@ -27,3 +27,13 @@ def chai_order(*ingredients, **extras):
 
 chai_order("Cinnamon", "Ginger", sugar='2', masala='Yes') # Write in order, first all without keywords will go under "ingredients" variable
                                                         #   Second all with the keywords will go under "extras" variable
+
+
+# Default values in function arguments.
+def chai_type(order=None): # None means if no arguments are passed in the "order" variable then dont do anything.
+    if order is None:
+        order = []
+    print(order)
+
+chai_type("Lemon")
+chai_type()
